@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+/*!
+ Theme Name:   Twenty Seventeen Child Category Excerpts
+ Theme URI:    http://coertvonk.com/twenty-fifteen-child/
+ Description:  Show excerpts in category overview. As cards or thumbnails. 
+ Author:       Coert Vonk
+ Author URI:   http://coertvonk.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         excerpt, thumbnail, summary, category, twenty-seventeen child, light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready, category excerpts, category thumbnail grid
+ Text Domain:  twenty-seventeen-child
+ */
+/* @import "compass"; */
+/* @import "compass/reset"; */
+/*--------------------------------------------------------------
+ >>> TABLE OF CONTENTS:
+ ----------------------------------------------------------------
+ 1.0 Normalize
+ 2.0 Accessibility
+ 3.0 Alignments
+ 4.0 Clearings
+ 5.0 Typography
+ 6.0 Forms
+ 7.0 Formatting
+ 8.0 Lists
+ 9.0 Tables
+ 10.0 Links
+ 11.0 Featured Image Hover
+ 12.0 Navigation
+ 13.0 Layout
+ 13.1 Header
+ 13.2 Front Page
+ 13.3 Regular Content
+ 13.4 Posts
+ 13.5 Pages
+ 13.6 Footer
+ 14.0 Comments
+ 15.0 Widgets
+ 16.0 Media
+ 16.1 Galleries
+ 17.0 Customizer
+ 18.0 SVGs Fallbacks
+ 19.0 Media Queries
+ 20.0 Print
+ --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+ 5.0 Typography
+ --------------------------------------------------------------*/
+body, button, input, select, textarea {
+  color: #333;
+  font-family: "Segoe UI", "Roboto", "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.66; }
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  line-height: 1.4;
+  margin: 0 0 0.75em;
+  padding: 1.25em 0 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #930; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center; }
+
+h2, .home.blog .entry-title {
+  font-size: 20px;
+  font-size: 1.75rem;
+  font-weight: 500; }
+
+h3 {
+  font-size: 18px;
+  font-size: 1.5rem;
+  font-weight: 450; }
+
+h4 {
+  font-size: 16px;
+  font-size: 1.25rem;
+  font-weight: 400; }
+
+h5 {
+  font-size: 13px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: none; }
+
+h6 {
+  font-size: 11px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic; }
+
+p {
+  margin: 0 0 1.5em;
+  padding: 0; }
+/*--------------------------------------------------------------
+ 8.0 Lists
+ --------------------------------------------------------------*/
+.entry-content ul > li, .entry-content ol > li {
+  margin: 0.3em 0 0.3em 2em; }
+/*--------------------------------------------------------------
+ 9.0 Tables
+ --------------------------------------------------------------*/
+table {
+  width: 0; }
+
+div.post table caption {
+  width: auto;
+  margin: 0 auto;
+  background: white;
+  font-size: 0.9em;
+  line-height: 13px;
+  padding: 2px 4px 5px;
+  border: none;
+  color: #999 !important; }
+/*--------------------------------------------------------------
+ 10.0 Links
+ --------------------------------------------------------------*/
+article.post a {
+  border-bottom: 2px solid #b4e6fa;
+  color: inherit;
+  -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1); }
+
+article.post a:hover, article.post a:active {
+  outline: 0;
+  color: inherit;
+  background-color: rgba(180, 230, 250, .35); }
+
+article.post a.hideAnchor:hover, article.post a:active > img {
+  background-color: white; }
+
+article.post a.hideAnchor, article.post a[href$=jpg], article.post a[href$=jpeg], article.post a[href$=svg], article.post a[href$=png], article.post a[href$=gif] {
+  border-bottom: 0 !important;
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  background-color: white;
+  box-shadow: none;
+  transition: none;
+  text-decoration: none; }
+
+.entry-content a, .entry-content a, .entry-title a, .entry-meta a, .page-links a, .page-links a .page-number, .site-footer .widget-area ul li a, .site-footer .widget-area ul li a {
+  box-shadow: none;
+  transition: none;
+  text-decoration: none; }
+
+.entry-content a:focus, .entry-content a:hover, .entry-summary a:focus, .entry-summary a:hover, .page-links a:focus .page-number, .page-links a:hover .page-number, .entry-footer a:focus, .entry-footer a:hover, .entry-footer .cat-links a:focus, .entry-footer .cat-links a:hover, .entry-footer .tags-links a:focus, .entry-footer .tags-links a:hover {
+  box-shadow: none;
+  transition: none;
+  text-decoration: none; }
+/*.entry-content */
+a > img {
+  box-shadow: none;
+  transition: none;
+  text-decoration: none; }
+/* remove link styling from starbox */
+.abh_tab_content > .abh_tab > .abh_image > a {
+  border: none; }
+/*--------------------------------------------------------------
+ 13.0 Layout
+ --------------------------------------------------------------*/
+.wrap {
+  max-width: 3000px; }
+
+div.single-featured-image-header > img {
+  max-height: 250px;
+  width: auto; }
+/*--------------------------------------------------------------
+ 13.1 Header
+ --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+ 13.4 Posts
+ --------------------------------------------------------------*/
+/* Post Landing Page */
+
+/*--------------------------------------------------------------
+ 13.6 Footer
+ --------------------------------------------------------------*/
+@media screen and (min-width: 48em) {
+  .site-info {
+    width: 100%; } }
+/* ---- */
+/* hide web site field in comment form */
+/*
+ .comment-form-url {
+ display: none;
+ }
+ */
+figcaption.wp-caption-text {
+  text-align: center; }
+
+div.syntaxhighlighter a, div.syntaxhighlighter div, div.syntaxhighlighter code, div.syntaxhighlighter table, div.syntaxhighlighter table td, div.syntaxhighlighter table tr, div.syntaxhighlighter table tbody, div.syntaxhighlighter table thead, div.syntaxhighlighter table caption, div.syntaxhighlighter textarea {
+  font-size: 0.8rem !important; }

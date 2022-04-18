@@ -1,0 +1,16 @@
+[07-Sep-2021 15:07:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/header.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/header.php on line 16
+[07-Sep-2021 15:07:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function home_url() in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/404.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/404.php on line 19
+[12-Sep-2021 04:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function home_url() in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/404.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/404.php on line 19
+[12-Sep-2021 04:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/header.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/coertvonk.com/public_html/wp-content/themes/twentyseventeen-child-cvonk/header.php on line 16
